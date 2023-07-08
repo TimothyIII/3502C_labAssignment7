@@ -5,14 +5,14 @@ int main(void)
 {
     // Variables
     int numOfInputs;
-	int i;
+    int i;
     int j;
     int temp;
     int index = 0;
 
     // Numbers Input File Form
     FILE* inFile = fopen("testInput.txt","r");
-	fscanf(inFile, " %d\n", &numOfInputs);
+    fscanf(inFile, " %d\n", &numOfInputs);
 
     int numArray[numOfInputs];
     int oldNumArray[numOfInputs];
